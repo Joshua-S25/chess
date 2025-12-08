@@ -713,3 +713,24 @@ Lifecycle - Collection of Phases for building or distributing an artifact
 Phase - A specific step in a lifecycle  
 Goal - Code actually compiles to  
 Plugin - Code  
+
+# Final Notes
+Paralellism - Running things at the same time  
+Asymmetric Encryption - Uses public/private key pairs  
+Advvantage of asymmetric key encryption includes: It only requires one of the keys in the pair for encryptions. Symmetric is much faster  
+The 'getAndAdd' method of AtomicInteger: Adds to the Integer and returns the original value  
+Maven: Can be customized for a project with plugins  
+Thread pools always: Add overhead  
+The synchronized keyword is used to: protect a critical section  
+You *Cannot* create a thread in Java using: A Synchronized object  
+A race condition happens when: two threads modify and access a critical resource at the same time
+A critical section does *not*: apply to single threaded programs  
+Database Transactions do *not*: allow partial execution of statements (Syncronized block "around" my client, server, and database)  
+Configuration informatio for Maven is stored in a: pom.xml file  
+Secure key exchange is usually done with: Asymmetric encryption of a symmetric key  
+Given following code what will the output be. thread.start starts a thread. thread.join blocks the running of main thread until it's done
+Hashing with salt is used to store unique passwords
+Atomic variables: Can be used to avoid creating critical sections in certain cases  
+With a key from a asymmetric key pair you can decrypt data that was: encrypted with the other key in a pair  
+Hash functions are *not* a good choice for: encryption  
+Cryptographic has functions are: deterministic  
